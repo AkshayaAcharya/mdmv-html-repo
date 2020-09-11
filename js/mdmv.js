@@ -90,9 +90,10 @@ const developers = [
            
     }
 ]
-let iframeSet = document.getElementsByTagName('iframe')[0];
+let iframeSet = document.getElementById('if');
+// console.log(iframeSet)
 let simOption = null;
-iframeSet.src = ' ';
+// iframeSet.src = '../assets/Abhinav/simulation/RotatingUnbalance/index.html';
 
 
 function setSimulation(ele) {
@@ -109,13 +110,9 @@ function changeColor(ele){
     }
     dev[ele.id].style.backgroundColor = 'green';
     dev[ele.id].style.color = 'white';
-    console.log(parseInt(ele.id));
-    // if (simOption != null) {
-        iframeSet.src = developers[parseInt(ele.id)].expDetails[simOption].src;
-    // } 
-    // else {
-    //     iframeSet.src = ' ';
-    // }
+    // console.log(developers[parseInt(ele.id)].expDetails[simOption].src);
+    iframeSet.src = developers[parseInt(ele.id)].expDetails[simOption].src;
+    // console.log(iframeSet.src)
     scrolldiv();
     dev[3].innerHTML = 'Simulation: '+developers[parseInt(ele.id)].expDetails[simOption].expName;
 }

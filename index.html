@@ -9,7 +9,6 @@
       content="Web site created using create-react-app"
     />
     <link rel='stylesheet' href='./css/mdmv.css'/>
-    <script src='./js/mdmv.js'></script>    
 
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
@@ -76,12 +75,13 @@
             <div class='sim'>
                 <div>
                     <p class='heading' style="border-radius: 0px">Simulation</p>
-                   <iframe src='' width="850px"
+                   <iframe id='if' src='' width="850px"
                         height="700px" style='border:none'></iframe>
                     <img style='position: relative;top:-90px;cursor: pointer;' title='move to top' onclick="moveTop()" id='top' src='./assets/top.png'/> 
                 </div>
             </div>
         </div>
     </div>
+    <script src='./js/mdmv.js'></script>    
   </body>
 </html>
