@@ -110,11 +110,12 @@ function changeColor(ele){
     dev[ele.id].style.backgroundColor = 'green';
     dev[ele.id].style.color = 'white';
     console.log(parseInt(ele.id));
-    if (simOption != null) {
+    // if (simOption != null) {
         iframeSet.src = developers[parseInt(ele.id)].expDetails[simOption].src;
-    } else {
-        iframeSet.src = ' ';
-    }
+    // } 
+    // else {
+    //     iframeSet.src = ' ';
+    // }
     scrolldiv();
     dev[3].innerHTML = 'Simulation: '+developers[parseInt(ele.id)].expDetails[simOption].expName;
 }
