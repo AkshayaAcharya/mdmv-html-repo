@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+    font-family: 'verdana';
+
+  }
+  
+  header {
+    font-family: 'verdana';
+    font-size: 35px;
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: goldenrod;
+    box-shadow: 20px 0px 35px rgb(175, 170, 163);
+    color: rgb(61, 57, 57);
+  }
+  
+  .divisions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .heading {
+    font-size: 30px;
+    box-shadow: 2px 2px 15px rgb(175, 170, 163);
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  
+  .setDiv {
+      width: 90%;
+      margin: 0 auto;
+      border: 1px solid black;
+      box-shadow: 2px 2px 15px rgb(175, 170, 163);
+  }
+  
+  button{
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  @media(min-width: 500px) {
+    
+  }
