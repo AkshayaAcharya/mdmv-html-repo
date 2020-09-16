@@ -5,12 +5,12 @@ const developers = [
             {
                 id: 1,
                 expName: 'Two Degree of Freedom System',
-                src: '../assets/kushagra/simulation/2dofForced/index.html'
+                src: '../assets/Kushagra/simulation/2dofForced/index.html'
             },
             {
                 id: 2,
                 expName: 'Vibration Absorber',
-                src: '../assets/kushagra/simulation/VibrationAbsorber/index.html'
+                src: '../assets/Kushagra/simulation/VibrationAbsorber/index.html'
             }
 
         ]
