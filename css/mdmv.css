@@ -43,6 +43,13 @@
     cursor: pointer;
   }
 
-  @media(min-width: 500px) {
-    
+  @media(max-width: 600px) {
+    .divisions {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: left;
+      text-align: left;
+      padding: 10px;
+    }
   }
